@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gaming Website</title>
+
+    <style>
+        body {
+            background: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+
+        header {
+            background: #ff4500;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .container {
+            margin-top: 60px;
+        }
+
+        button {
+            background: #ff4500;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ff0000;
+        }
+
+        footer {
+            margin-top: 100px;
+            background: #222;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🎮 GAMING ZONE</h1>
+        <p>Welcome to My Gaming World!</p>
+    </header>
+
+    <div class="container">
+        <h2>Ready to Play, Bro? 🔥</h2>
+        <p>Explore games and enjoy your gaming experience!</p>
+
+        <button onclick="startGame()">START GAME</button>
+
+        <h2 id="message"></h2>
+    </div>
+
+    <footer>
+        <p>© 2026 Gaming Zone | Created by Me ❤️</p>
+    </footer>
+
+    <script>
+        function startGame() {
+            document.getElementById("message").innerHTML =
+                "🔥 LET'S PLAY, GAMER! 🔥";
+        }
+    </script>
+
+</body>
+</html>
